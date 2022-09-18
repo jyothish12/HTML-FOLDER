@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark navabr-expand-lg">
+        <div>
+        <img src="data:image/png;base64,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" alt="">
+    </div>
+        <a href="#" class="navbar navbar-brand mr-auto">BICYCLES</a>
+        <div>
+            <ul class="navbar nav ml-auto">
+                <li class="nav-item"><a href="index.html"class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="Contact.html"class="nav-link">SERVICES</a></li>
+                <li class="nav-item"><a href="Services.html"class="nav-link">CONTACT</a></li>
+                <li class="nav-item"><a href="Login.html"class="nav-link">LOGIN</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="https://media.architecturaldigest.com/photos/578558478fa9d0fe611e20cd/16:9/w_2560%2Cc_limit/cyclotron-bicycle-of-future-01.png"class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://static.toiimg.com/thumb/msid-92275852,width-1070,height-580,imgsize-50116,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+</body>
+</html>
