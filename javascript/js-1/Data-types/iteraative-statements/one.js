@@ -42,6 +42,14 @@ console.log(i)
 }
 */
 
+/*
+let size=[1,2,3,4,5,6]
+for(i=0;i<=size.length-6;i++){
+    console.log(size)
+}
+*/
+
+
 // while loop
 
 // comdition statement is true,excute the condition statement  ,otherwise not execute
@@ -91,6 +99,18 @@ console.log(a)
 a=a+2
 }   */
 
+/*
+let names=["abc","def","xyz","efg","pqr"]
+let i=0;
+while(i<names.length-0){
+    console.log(names[i])
+    i=i+1
+}
+*/
+
+
+
+
 // do while
 
 /* 
@@ -135,10 +155,21 @@ a=a+2
 }
 while(a<=30)
 */
-
+/*
 let a=1
 do{
     console.log(a)
 a=a+2
 }
 while(a<=30)
+*/
+
+
+
+let a= ['jyothish',"teja","srinu","anusha"]
+let i=0
+do{
+console.log(a[i])
+i++
+}
+while(i<=a.length-1)

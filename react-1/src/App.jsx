@@ -39,14 +39,17 @@ import Fun from "./Fun"
 }
 export default App */
 import React  from 'react'
-import Class from './Class'
+
+import Fun from "./Props/Fun"
 
 class App extends React.Component {
   render() {
     return (
-      <div><Class/></div>
+      <div><Fun/></div>
     )
   }
 }
 
 export default App
+
+
